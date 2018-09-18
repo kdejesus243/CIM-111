@@ -18,12 +18,36 @@
     /*Below I will be changing the font of the webpage.*/
     font-family: sans-serif;}
 
+a{text-decoration: none;
+  color: green;
+  font-weight: bolder;}
+
+/*The tag above sets the style for hyperlinks on a page. Here, I removed the underline on any link in my page. I changed the color of the hyperlinks and I also increased the weight of the text. */
+
+/*Below I will be styling the hover effect over hyperlinks. The code below makes hyperlinks appear black and underlined when I hover my cursor over them.*/
+
+a:hover{
+  color:black;
+  text-decoration: underline;}
+
+  #name{text-align: center;}
+  /*Above I have aligned my name to the center of the page*/
+
+  p{line-height: 30px;
+    text-indent: 20px;} /*This code styles any text within my p tags*/
+
+    li{
+      list-style: none; /*This sets the style for any lists I have on my page. None indicates that any glyphs or character styling has been removed.*/
+    }
+
   </style>
 
 </head>
 <body>
+  <header>
 
-<h1>Kimberly De Jesus</h1>
+<h1 id="name">Kimberly De Jesus</h1> <!-- I have added an id attribute to my h1 tag so that I can refer to it for styling later.-->
+
 <address>
   1234 56th Street
   Miami, FL 33123
@@ -32,18 +56,24 @@
   <a href="https://www.youtube.com/c/KimKatDeJesus">kimkatdejesus.com</a></p>
 
 <img src="images/headshot.jpg" width="300">
+  </header>
 
+<main>
+
+<section>
 <h2>Profile</h2>
 
 <p>I am seeking to leverage the skills I have developed while working for the Division of Enrollment Management. The work I produced was used across the University of Miami&apos;s digital platforms on behalf of the Office of Undergraduate Admission (@UMAdmission)</p>
+</section>
 
+<section>
 <h2>Education</h2>
 
 <h4>Motion Pictures Business, BSC</h4>University of Miami, 2021 <br> Coral Gables, FL 33146<br><i>Honors: Ronald A. Hammond Scholar, Foote Fellow, Communication Honors</i><br><br>
 <h4>General Education</h4>Doral Performing Arts & Entertainment Academy, 2017 <br> Doral, FL 33172 <br> <i>Honors: Summa Cum Laude, National Hispanic Scholar, AP Scholar with Distinction, Principal's Honor Roll (grades 9-12)</i></li>
+</section>
 
-
-
+<section>
 <h2>Professional Experience</h2>
 <h4>Digital Stratey Assistant, UM Enrollment Management Marketing</h4>
 <i>09/2017 - present</i>
@@ -77,6 +107,10 @@
   <!-- see if you can find another word for served so that descriptions are not repetitive. -->
 </ul>
 
+</section>
+
+<section>
+
 <h2>Skills</h2>
 <table>
 <tr>
@@ -103,6 +137,13 @@
 </tr>
 </table>
 
+</section>
+
+</main>
+
+<footer>
+
+</footer>
 
 
 </body>
