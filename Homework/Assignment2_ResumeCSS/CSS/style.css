@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+background-color: #f7f8f3;
+
+font-family: 'Poppins', sans-serif;}
+
+a{text-decoration: none;
+color: #3f95cd;
+}
+
+a:hover{
+color:black;
+text-decoration: underline;}
+
+#name{text-align: center;
+  color: #00436f;
+font-size: 30pt;}
+
+#currentPosition{text-align: center;
+font-size: 14pt;}
+
+#address{text-align: center;
+font-size: 14pt;}
+
+#contact{text-align: center;
+font-size: 14pt;}
+
+#profile{font-size: 14pt;
+font-weight: bolder;}
+
+.sectionTitle{
+  background-color: #c7cbca;}
+
+.subheading{color: #0776be;}
+
+li{
+  list-style: circle;}
+
+th{text-decoration: underline;}

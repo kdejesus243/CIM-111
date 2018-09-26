@@ -1,0 +1,9 @@
+#changeText{color:#1f5c71;
+font-weight: bold;
+text-decoration: underline;}
+
+#box{background-color: #d9e6ef;
+width: 300px;
+height: 300px;
+padding: 10px; /*Padding will add specified amount of pixels to all sides of the box*/
+}
