@@ -29,6 +29,10 @@ font-size: 14pt;}
 #profile{font-size: 14pt;
 font-weight: bolder;}
 
+#image{width: 300px;
+  margin: 0 auto;}
+
+
 .sectionTitle{
   background-color: #c7cbca;}
 

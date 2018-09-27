@@ -5,5 +5,48 @@ text-decoration: underline;}
 #box{background-color: #d9e6ef;
 width: 300px;
 height: 300px;
-padding: 10px; /*Padding will add specified amount of pixels to all sides of the box*/
+padding: 10px; /*Padding will add specified amount of pixels to all sides of the box. You can also adjust padding per each side, as shown below*/
+padding-left: 20px;
+padding-right: 20px;
+
+/*I can also add a border around my box as shown below*/
+border-width: 5px;
+border-style: dotted;
+border color: black;
+border-width: 5px 10px 5px 10px; /*This is a short hand for adjusting each side of the box. This short hand can be used for other styling tools as well like padding and the other styles above. The sides are adjusted in a clock wise manner (top, right, bottom, left)*/
+
+margin: 50px; /*This sets a margin on all sides. The margins can also be adjusted per side.*/
+margin: 0 auto; /*This code is used to center an object. */
 }
+
+header{background-color: red;
+width: 960px;
+height: 200px;
+margin:0 auto;
+margin-top: -18px;}
+
+main{background-color: orange;
+width: 960px;
+height: auto;
+margin: 0 auto;
+margin-top: -18px;}
+
+footer{background-color: yellow;
+width: 960px;
+height: 100px;
+margin: 0 auto;
+margin-top: -18px;}
+
+
+nav{background-color: pink;
+width: 500px;
+margin: 0 auto;}
+  nav ul{}
+    nav ul li{ list-style: none;
+    display:inline-block;}
+      nav ul li a{ text-decoration: none;
+      color: black;
+      font-size: 20px;}
+
+      nav ul li a:hover{color: white;
+      text-decoration: underline;}
