@@ -1,0 +1,42 @@
+header{
+  width: 100%;
+  height: 100px;
+  background-color: purple;
+}
+
+main{
+  width: 100%;
+  height: auto;
+  background-color: aqua;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: purple;
+}
+
+#grid1{
+  display: grid;
+  grid-template-areas: "col1 col2";
+  grid-template-rows: 1fr;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+#col1{
+grid-area: col1;
+background-color: pink;
+height: auto;
+}
+
+#col2{
+grid-area: col2;
+background-color: coral;
+height: auto;
+}
+
+.images{ height: 200px;
+  display: block;
+  margin: 0 auto;
+
+}

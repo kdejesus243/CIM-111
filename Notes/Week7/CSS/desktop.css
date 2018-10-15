@@ -1,0 +1,26 @@
+header,footer{
+  width: 80%;
+  height: 100px;
+  background-color: purple;
+  margin: 0 auto;
+}
+
+main{
+  width: 80%;
+  height: auto;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+body{
+    background-color: aqua;
+  }
+
+.columns{
+  width: 49.5%;
+  height: 500px;
+  background-color: red;
+  display: inline-block;
+  vertical-align: top;
+  
+}

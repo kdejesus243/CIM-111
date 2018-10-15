@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,800');
+
+body{font-family: 'Poppins', sans-serif;}
+
+header{
+  background-color:coral;
+  height: 100px;
+  width:100%;
+}
+
+main{
+  background-color: blue;
+  width: 100%;
+  height: 1200px;
+}
+
+footer{
+  background-color: yellow;
+  width: 100%;
+  height: 100px;
+}
+
+#logo{
+  width: 100px;
+  display: inline-block;
+}
+
+nav{
+  background-color: pink;
+width: 300px;
+height:50px;
+float: right;
+margin-top:
+
+}
+  nav ul{}
+    nav ul li{ list-style: none;
+    display:inline-block;}
+      nav ul li a{ text-decoration: none;
+      color: black;
+      font-size: 20px;}
+
+      nav ul li a:hover{color: white;
+      text-decoration: underline;}
+
+      .clear{
+        float: none;
+        clear: both;
+      }
+
+      #intro{
+        background-color: white;
+        height: 400px;
+        width: 100%;
+      }
+      #grid1{
+        display: grid;
+        grid-template-areas: "col1 col2";
+        grid-template-rows: 1fr;
+        grid-template-columns: 70% 30%;
+      }
+      #col1{
+      grid-area: col1;
+      background-color: purple;
+      height: 800px;
+      }
+
+      #col2{
+      grid-area: col2;
+      background-color: aqua;
+      height: 800px;
+      }
+
+
+      #grid2{
+        display: grid;
+        grid-template-areas: "col3 col4";
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 50% 50%;
+      }
+
+      #col3{
+        grid-area: col3;
+        background-color: gray;
+        height: 800px;
+      }
+      #col4{
+        grid-area: col4;
+        background-color: white;
+        height: 800px;
+      }
+#introtext{
+  text-align: center;
+  font-weight:800;
+  font-size: 50pt;
+
+
+
+}
+
+#introsubtext{
+  text-align: center;
+
+}
