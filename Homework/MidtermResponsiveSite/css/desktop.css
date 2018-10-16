@@ -4,19 +4,19 @@
 body{font-family: 'Poppins', sans-serif;}
 
 header{
-  background-color:coral;
+  background-color:white;
   height: 100px;
   width:100%;
 }
 
 main{
-  background-color: blue;
+  background-color: white;
   width: 100%;
   height: 1200px;
 }
 
 footer{
-  background-color: yellow;
+  background-color: white;
   width: 100%;
   height: 100px;
 }
@@ -24,14 +24,14 @@ footer{
 #logo{
   width: 100px;
   display: inline-block;
+  margin-left: 2.5%;
 }
 
 nav{
-  background-color: pink;
+  background-color: white;
 width: 300px;
 height:50px;
 float: right;
-margin-top:
 
 }
   nav ul{}
@@ -41,7 +41,7 @@ margin-top:
       color: black;
       font-size: 20px;}
 
-      nav ul li a:hover{color: white;
+      nav ul li a:hover{color: gray;
       text-decoration: underline;}
 
       .clear{
@@ -51,55 +51,110 @@ margin-top:
 
       #intro{
         background-color: white;
-        height: 400px;
+        height: 300px;
         width: 100%;
       }
       #grid1{
         display: grid;
         grid-template-areas: "col1 col2";
         grid-template-rows: 1fr;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 75% 25%;
       }
       #col1{
       grid-area: col1;
-      background-color: purple;
+      background-color: white;
       height: 800px;
       }
 
       #col2{
       grid-area: col2;
-      background-color: aqua;
+      background-color: white;
       height: 800px;
+
       }
 
 
       #grid2{
         display: grid;
         grid-template-areas: "col3 col4";
-        grid-template-rows: 300px 300px;
+        grid-template-rows:
         grid-template-columns: 50% 50%;
+
       }
 
       #col3{
         grid-area: col3;
-        background-color: gray;
-        height: 800px;
+        background-color: #f0f0f0;
+        height: auto;
+
+
       }
       #col4{
         grid-area: col4;
-        background-color: white;
-        height: 800px;
-      }
+        background-color: #f0f0f0;
+        height: auto;
+  }
+
 #introtext{
   text-align: center;
   font-weight:800;
   font-size: 50pt;
-
-
-
 }
 
 #introsubtext{
   text-align: center;
 
+}
+
+.headings{text-align: center;
+color: white;
+background-color: #737373;
+}
+
+
+#headshot{
+  width:80%;
+  margin: 0 auto;
+}
+#aboutmetext{
+  width: 90%;
+  margin: 0 auto;
+}
+
+#rylie{
+  width: 90%;
+  margin: 0 auto;
+  margin-top:5%;
+}
+#henry{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+#lie{
+  width: 90%;
+  margin: 0 auto;
+  margin-top:5%
+}
+
+#pop{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5%;
+
+}
+
+#footer{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #252525;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: gray;
 }
