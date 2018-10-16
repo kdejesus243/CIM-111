@@ -12,7 +12,7 @@ header{
 main{
   background-color: white;
   width: 100%;
-  height: 1200px;
+  height: auto;
 }
 
 footer{
@@ -63,13 +63,13 @@ float: right;
       #col1{
       grid-area: col1;
       background-color: white;
-      height: 800px;
+      height: auto;
       }
 
       #col2{
       grid-area: col2;
       background-color: white;
-      height: 800px;
+      height: auto;
 
       }
 
