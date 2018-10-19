@@ -1,0 +1,77 @@
+@import "desktop.css";
+
+#logo{
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+nav{
+  background-color: white;
+width: 300px;
+height:50px;
+float: none;
+margin: 0 auto;
+}
+
+#introtext{
+  text-align: center;
+  font-weight:800;
+  font-size: 30pt;
+}
+
+#introsubtext{
+  text-align: center;
+  font-size: 15pt;
+
+}
+
+#grid1{
+  display: grid;
+  grid-template-areas: "col1 col2";
+  grid-template-rows: 1fr;
+  grid-template-columns: 100%;
+  display: block;
+}
+#col1{
+grid-area: col1;
+background-color: white;
+height: auto;
+
+}
+
+#col2{
+grid-area: col2;
+background-color: white;
+height: auto;
+
+
+}
+
+
+#grid2{
+  display: grid;
+  grid-template-areas: "col3 col4";
+  grid-template-rows:
+  grid-template-columns: 100%;
+  display: block;
+
+}
+
+#col3{
+  grid-area: col3;
+  background-color: #f0f0f0;
+  height: auto;
+
+
+}
+#col4{
+  grid-area: col4;
+  background-color: #f0f0f0;
+  height: auto;
+}
+
+#aboutmeheading{
+  background-color: #737373;
+  width: 100%;
+  margin: 0 auto;

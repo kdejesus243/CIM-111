@@ -97,18 +97,32 @@ float: right;
 
 #introtext{
   text-align: center;
+  vertical-align: middle;
   font-weight:800;
   font-size: 50pt;
 }
 
 #introsubtext{
   text-align: center;
+  vertical-align: middle;
 
 }
 
 .headings{text-align: center;
 color: white;
-background-color: #737373;
+
+}
+
+#aboutmeheading{
+  background-color: #737373;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#featuredheading{
+  background-color: #737373;
+  width: 100%;
+  margin: 0 auto;
 }
 
 
