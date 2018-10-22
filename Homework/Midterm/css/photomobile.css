@@ -1,0 +1,52 @@
+@import "photodesktop.css";
+
+#grid{
+        display: grid;
+        grid-template-areas: "col1 col2";
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        border-width: thin;
+        border-color: #737373;
+        border-style: solid;
+        border-left: none;
+        border-right: none;
+        display: block;
+  }
+
+  #nd{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: -15%;
+  }
+
+  #headingbox{
+    width: 90%;
+    margin: 0 auto;
+}
+  #heading{
+    font-size: 20pt;
+  }
+
+  #subheading{
+    font-size: 12pt;
+  }
+
+  header{
+    height: 135px;
+  }
+
+  #logo{
+    width: 80px;
+    display:block;
+    margin-left: -1%;
+    margin: 0 auto;
+  }
+
+  nav{
+    background-color: white;
+  width: 300px;
+  height:auto;
+  float: none;
+  margin: 0 auto;
+
+  }
