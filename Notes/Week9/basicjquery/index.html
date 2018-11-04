@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Intro to Javascript</title>
+
+  <style>
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+}
+
+  </style>
+</head>
+
+<body>
+<h1 id="changeText">Intro to Javascript</h1>
+
+<h2 id="info">Mouse over to see more info</h2>
+<div id="recepticle"></div>
+
+<h2>Image Gallery</h2>
+<img id="image1" src="https://c6.staticflickr.com/2/1087/682231827_6790b3145f_o.jpg" width="100px">
+<img id="image2" src="https://c5.staticflickr.com/8/7342/10614070595_db3106e83b_o.jpg" width="100px">
+
+<div id="imageRecepticle"></div>
+
+<h2>Show, Hide, and Toggle</h2>
+<ul>
+  <li id="show">Show</li>
+  <li id="hide">Hide</li>
+  <li id="toggle">Toggle</li>
+</ul>
+
+<div class="box"></div>
+
+<script src="js/jquery.js"></script> <!-- The jquery script tag should always be the FIRST script tag you write-->
+
+<script>
+
+//Start of script (this is how you write a commnent within the script tags)
+$(document).ready(function(){
+  //All code should be placed within the curly braces
+
+  $(".box").hide();
+
+  $("body").css("background-color", "pink");
+  $("h1").css("color", "midnightblue");
+  $("#changeText").css("font-size", "50pt");
+  $("#changeText").html("I love javascript!!!");
+
+  $("#changeText").click(function(){
+    $("body").css("background-color", "yellow");
+
+  }); //end of change text click
+
+
+  $("#info").mouseenter(function(){
+    $("#recepticle").html("<em>This information is important</em>");
+}); //end of mouse enter
+
+  $("#info").mouseleave(function(){
+    $("#recepticle").html(""); 
+  }); //end of mouse leave
+
+$("#image1").click(function(){
+  $("#imageRecepticle").html('<img src="https://c6.staticflickr.com/2/1087/682231827_6790b3145f_o.jpg" width="300">');
+});
+
+$("#image2").click(function(){
+  $("#imageRecepticle").html('<img src="https://c5.staticflickr.com/8/7342/10614070595_db3106e83b_o.jpg" width="300">');
+});
+
+$("#hide").click(function(){
+  $(".box").hide();
+});
+
+$("#show").click(function(){
+  $(".box").show();
+});
+
+$("#toggle").click(function(){
+  $(".box").toggle();
+});
+
+}); //end of document ready
+</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

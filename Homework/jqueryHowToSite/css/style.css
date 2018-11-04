@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+body{font-family: 'Quicksand', sans-serif;}
+
+header{width: 100%;
+  height: 100px;
+  text-align: center;}
+nav{ width: 100%;
+text-align: center;
+border-style: solid;
+border-color: black;
+border-width: thin;
+border-left: none;
+border-right: none;
+}
+nav ul li{display:inline-block;
+}
+nav ul li a{text-decoration: none;
+color: black;}
+
+#grid{
+  display: grid;
+  grid-template-areas: "col1 col2";
+  grid-template-columns: 70% 30%;
+  grid-template-rows: auto;
+  margin-top: 30px;
+}
+
+#col1{
+  grid-area: "col1";
+  background-color: white;
+}
+
+#col2{
+  grid-area: "col2";
+  background-color: white;
+}
+
+
+#copy{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#blogtitle{
+  font-weight: 400;
+}
+
+#searchbox{
+  width: 80%;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 0.2px;
+  padding-bottom: 0.2px;
+  padding-left: 10px;
+
+}
+
+#Archive{
+width: 80%;
+margin: 0 auto;
+margin-top: 20px;
+border-style: solid;
+border-color: black;
+border-width: thin;
+padding-left: 10px;
+}
+
+ul li{
+  display: block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover{
+  text-decoration: underline;
+  color: gray;
+}
+
+#featuredsection{
+  display: grid;
+  grid-template-areas: "images" "titles";
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#featured{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#titles{
+  margin-left: 12px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: gray;
+}
+
+#recipe{
+   background-color: #e1e1e1;
+   padding: 8px;
+}
+
+.images{
+  width: 50%;
+  margin: 0 auto;
+}
