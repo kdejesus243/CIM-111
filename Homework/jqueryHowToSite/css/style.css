@@ -85,11 +85,11 @@ ul li a:hover{
 
 #featuredsection{
   display: grid;
-  grid-template-areas: "images" "titles";
-  grid-template-columns: 40% 60%;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   width: 80%;
   margin: 0 auto;
+  grid-row-gap: 10px;
 }
 
 #featured{
@@ -97,8 +97,12 @@ ul li a:hover{
   margin: 0 auto;
 }
 
-#titles{
-  margin-left: 12px;
+#title1{
+  margin-top: 22%;
+}
+
+#title2{
+  margin-top: 22%;
 }
 
 a{
