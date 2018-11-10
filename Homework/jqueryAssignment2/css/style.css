@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500');
+
+
+
+body{font-family: 'Raleway', sans-serif;}
+
+
+header{
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+}
+
+
+#headertitle{
+  width: 100%;
+  height: 486px;
+  background-image: url('../images/puntacana.jpg');
+  font-size: 30pt;
+  color: white;
+}
+
+#title{
+  width: 50%;
+  text-align: right;
+  float: right;
+  margin-right: 45px;
+}
+
+
+nav{
+width: 97%;
+height: 50px;
+text-align: right;
+margin-top: 40px;
+font-size: 15pt;
+
+}
+nav ul li{display:inline-block;
+}
+nav ul li a{text-decoration: none;
+color: black;}
+
+
+
+#grid{
+  display: grid;
+  grid-template-areas: "col1 col2";
+  grid-template-columns: 70% 30%;
+  grid-template-rows: auto;
+  margin-top: 30px;
+}
+
+#col1{
+  grid-area: "col1";
+  background-color: white;
+}
+
+#col2{
+  grid-area: "col2";
+  background-color: white;
+}
+
+
+#copy{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#blogtitle{
+  font-weight: 400;
+}
+
+#searchbox{
+  width: 80%;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 0.2px;
+  padding-bottom: 0.2px;
+  padding-left: 10px;
+
+}
+
+
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover{
+  text-decoration: underline;
+  color: #004a80;
+}
+#gotospots{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #004a80;
+}
+
+#booknow{
+  width: 70%;
+  background-color: #004a80;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-top: 0.2px;
+  padding-bottom: 0.2px;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+}
