@@ -63,7 +63,7 @@ main{
   margin-top: 1.5em;
 }
 
-h1{
+#aboutme{
   font-size: 30pt;
 }
 
@@ -106,4 +106,9 @@ ul li a{
   margin-left: 2em;
   padding-top: 2em;
 
+}
+
+.logolink{
+  text-decoration: none;
+  color: black;
 }
