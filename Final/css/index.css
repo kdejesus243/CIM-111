@@ -1,19 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 
-body{font-family: 'Roboto Condensed', sans-serif;}
+body{font-family: 'Roboto', sans-serif;}
 
 header{
   width: 100%;
-  height: auto;
-  text-align: center;
+  height: 75px;
+
 
 }
+
+nav{
+width: 98%;
+height: auto;
+margin-top: -3em;
+font-size: 15pt;
+
+
+}
+
+h1{
+  padding-left: 2%;
+}
+
+
+nav ul li{
+  display:inline-block;
+  float: right;
+  padding: 0.5em;
+
+
+}
+
+nav ul li a{text-decoration: none;
+color: black;}
 
 
 #headertitle{
   width: 100%;
-  height: 550px;
+  height: 450px;
   background-image: url('../images/workspace.jpg');
+  background-repeat: no-repeat;
+  padding-top: 200px;
 
 }
 
@@ -21,23 +48,41 @@ header{
   width: 40%;
   text-align: center;
   margin: 0 auto;
-  background-color: black;
+  padding: 1em;
+  background-color: rgb(0,0,0,0.5);
   color: white;
   vertical-align: middle;
 }
 
+main{
+  width: 100%;
+  height: auto;
+}
 
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #f1f2f3;
+}
 
+#contact{
+  width: 95%;
+  margin-top: -3em; 
+}
 
-nav{
-width: 97%;
-height: 50px;
-text-align: right;
-margin-top: 40px;
-font-size: 15pt;
+ul li{
+  display:inline-block;
+  padding: 0.5em;
+  float: right;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+#footerlogo{
+  margin-left: 2em;
+  padding-top: 2em;
 
 }
-nav ul li{display:inline-block;
-}
-nav ul li a{text-decoration: none;
-color: black;}

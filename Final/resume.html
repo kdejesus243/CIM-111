@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Home</title>
+
+<link rel="stylesheet" href="css/index.css">
+
+<style>
+#resume{
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #f1f2f3;
+}
+
+#contact{
+  width: 95%;
+  margin-top: -3em;
+}
+
+ul li{
+  display:inline-block;
+  padding: 0.5em;
+  float: right;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+#footerlogo{
+  margin-left: 2em;
+  padding-top: 2em;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>ki<span style="color: gray">media</span></h1>
+
+        <nav>
+          <ul>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="motiongraphics.html">GRAPHICS</a></li>
+            <li><a href="graphicdesign.html">DESIGN</a></li>
+            <li><a href="video.html">VIDEO</a></li>
+            <li><a href="index.html">HOME</a></li>
+          </ul>
+        </nav>
+
+  </header>
+
+<main>
+<div id="resume"><img src="images/KimDeJesus_Fall2018Resume.jpg" width=100%></div>
+
+</main>
+<footer>
+  <h3 id="footerlogo">Kim's<span style="color:gray">Multimedia</span></h3>
+  <ul id="contact">
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="http://www.linkedin.com/in/dejesuskimberly">Linkedin</a></li>
+    <li>Email: kdejesus243@gmail.com</li>
+    <li>Phone: (786) 380 8323</li>
+  </ul>
+</footer>
+
+<script src="jquery/jquery.js"></script>
+
+
+<script src="jquery/masonry.pkgd.min.js"></script>
+
+<script>
+
+  $('.homegrid').masonry({
+// options
+  itemSelector: '.grid-item',
+  columnWidth: 400,
+  gutter: 20,
+  });
+
+</script>
+
+
+
+</body>
+
+
+
+
+
+</html>

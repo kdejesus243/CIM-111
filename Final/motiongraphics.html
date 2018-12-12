@@ -1,31 +1,85 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+  <title>Graphic Design</title>
 
-<title>Kimberly Multimedia</title>
+  <link rel="stylesheet" href="css/design.css">
+  <style>
+    .grid-item {
+      width: 400px;
+      height: 400px;
+      margin-bottom: 1.5em;
+     }
+    .grid-item--width2 { width: 800px; }
 
-<link rel="stylesheet" href="css/index.css">
+
+    .graphicdesigngrid{
+      width: 74.5%;
+      margin: 0 auto;
+      background-color: white;
+    }
+  </style>
+
 </head>
 
 <body>
-
   <header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="video.html">Video</a></li>
-      <li><a href="graphicdesign.html">Graphic Design</a></li>
-      <li><a href="motiongraphics.html">Motion Graphics</a></li>
-      <li><a href="about.html">About Me</a></li>
-    </ul>
-  </nav>
+
+<h1>ki<span style="color: gray">media</span></h1>
+
+    <nav>
+      <ul>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="motiongraphics.html">GRAPHICS</a></li>
+        <li><a href="graphicdesign.html">DESIGN</a></li>
+        <li><a href="video.html">VIDEO</a></li>
+        <li><a href="index.html">HOME</a></li>
+      </ul>
+    </nav>
+
 
 
   </header>
+  <main>
+    <section class="graphicdesigngrid">
+      <div class="grid-item"><a href="https://drive.google.com/open?id=17gSFg8SctaaoEf2EDvyv7lKCAeiRV1bi"><img src="images/danny.jpg" width=100%></a></div>
+      <div class="grid-item"><a href="https://drive.google.com/open?id=1M_MBSku2QBoZCp-Xw_dEwALODtE0Md98"><img src="images/commuter.jpg" width=100%></a></div>
+      <div class="grid-item"><a href="https://drive.google.com/open?id=1_WGciE4h-rxhjSHXAeuj4wwcgSJe1qty"><img src="images/falafel.jpg" width=100%></a></div>
+      <div class="grid-item"><a href="https://drive.google.com/open?id=12PiUapngOHgaV-2-vN9_eaXrOfxswWMg"><img src="images/umnews.jpg" width=100%></a></div>
+      <div class="grid-item"><a href="https://drive.google.com/open?id=11FfMgIvqR4nybVHp_3InzfZ5FNEpMZrS"><img src="images/vicky.jpg" width=100%></a></div>
+      <div class="grid-item"><a href="https://drive.google.com/open?id=1tVcXOgNSrb57P8ObF7lr6g4b1ldBwI0V"><img src="images/welcome.jpg" width=100%></a></div>
 
-<main></main>
-<footer></footer>
+
+    </section>
+
+  </main>
+  <footer>
+    <h3 id="footerlogo">Kim's<span style="color:gray">Multimedia</span></h3>
+    <ul id="contact">
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="http://www.linkedin.com/in/dejesuskimberly">Linkedin</a></li>
+      <li>Email: kdejesus243@gmail.com</li>
+      <li>Phone: (786) 380 8323</li>
+    </ul>
+  </footer>
+
+  <script src="jquery/jquery.js"></script>
+
+
+  <script src="jquery/masonry.pkgd.min.js"></script>
+
+  <script>
+
+    $('.graphicdesigngrid').masonry({
+  // options
+    itemSelector: '.grid-item',
+    columnWidth: 400,
+    gutter: 20,
+    });
+
+  </script>
+
+
 </body>
 
 

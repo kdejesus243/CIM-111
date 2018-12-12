@@ -3,34 +3,111 @@
 
 <head>
 
-<title>Kimberly Multimedia</title>
+<title>Home</title>
 
 <link rel="stylesheet" href="css/index.css">
+
+<style>
+.grid-item {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 1.5em;
+  background-color: #f1f2f3;
+  text-align: center;
+ }
+.grid-item--width2 { width: 800px; }
+
+
+.homegrid{
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#design{
+  background-image: url('images/visit.jpg');
+  background-size: cover;
+
+}
+
+#graphics{
+  background-image: url('images/news.gif');
+  background-size: cover;
+
+}
+
+#video{
+  background-image: url('images/wolfpackclip.gif');
+  background-size: cover;}
+
+</style>
+
 </head>
 
 <body>
 
   <header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="video.html">Video</a></li>
-      <li><a href="graphicdesign.html">Graphic Design</a></li>
-      <li><a href="motiongraphics.html">Motion Graphics</a></li>
-      <li><a href="about.html">About Me</a></li>
-    </ul>
-  </nav>
+    <h1>ki<span style="color: gray">media</span></h1>
 
-  <div id="headertitle">
-    <div id="titlebox">
-    <h1>Kim's Multimedia</h1>
-    </div>
-  </div>
+        <nav>
+          <ul>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="motiongraphics.html">GRAPHICS</a></li>
+            <li><a href="graphicdesign.html">DESIGN</a></li>
+            <li><a href="video.html">VIDEO</a></li>
+            <li><a href="index.html">HOME</a></li>
+          </ul>
+        </nav>
 
   </header>
 
-<main></main>
-<footer></footer>
+<main>
+  <div id="headertitle">
+    <div id="titlebox">
+    <h1>Kim's Multimedia</h1>
+
+    </div>
+  </div>
+
+  <section class="homegrid">
+    <div class="grid-item"><img src="images/service.jpg" width=100%></div>
+    <div class="grid-item" id="design"></div>
+    <div class="grid-item" id="video"><h2>Video</h2></div>
+    <div class="grid-item" id="graphics"></div>
+
+
+
+  </section>
+
+</main>
+<footer>
+  <h3 id="footerlogo">Kim's<span style="color:gray">Multimedia</span></h3>
+  <ul id="contact">
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="http://www.linkedin.com/in/dejesuskimberly">Linkedin</a></li>
+    <li>Email: kdejesus243@gmail.com</li>
+    <li>Phone: (786) 380 8323</li>
+  </ul>
+</footer>
+
+<script src="jquery/jquery.js"></script>
+
+
+<script src="jquery/masonry.pkgd.min.js"></script>
+
+<script>
+
+  $('.homegrid').masonry({
+// options
+  itemSelector: '.grid-item',
+  columnWidth: 400,
+  gutter: 20,
+  });
+
+</script>
+
+
+
 </body>
 
 

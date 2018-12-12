@@ -5,43 +5,83 @@
 
   <link rel="stylesheet" href="css/design.css">
   <style>
+    .grid-item {
+      width: 400px;
+      height: 400px;
+      margin-bottom: 1.5em;
+     }
+    .grid-item--width2 { width: 800px; }
 
+
+    .graphicdesigngrid{
+      width: 74.5%;
+      margin: 0 auto;
+      background-color: white;
+    }
   </style>
 
 </head>
 
 <body>
   <header>
+
+<h1>ki<span style="color: gray">media</span></h1>
+
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="video.html">Video</a></li>
-        <li><a href="graphicdesign.html">Graphic Design</a></li>
-        <li><a href="motiongraphics.html">Motion Graphics</a></li>
-        <li><a href="about.html">About Me</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="motiongraphics.html">GRAPHICS</a></li>
+        <li><a href="graphicdesign.html">DESIGN</a></li>
+        <li><a href="video.html">VIDEO</a></li>
+        <li><a href="index.html">HOME</a></li>
       </ul>
     </nav>
 
 
+
   </header>
   <main>
-    <section class="grid">
-      <div><img src="images/SAT_ACT_Graphic.png" width=100% class="img img1"></div>
-      <div><img src="images/lobby1.png" width=100% class="img img2"></div>
-      <div><img src="images/Image_for_Blog_Email.jpg" width=100% class=" img img3"></div>
-      <div><img src="images/JuniorInquiryEmail.jpg" width=100% class="img img4"></div>
-      <div><img src="images/transferemail.png" width=100% class="img img5"></div>
-      <div><img src="images/Indieprezi.png" width=100% class="img img6"></div>
-      <div><img src="images/instacontest.jpg" width=100% class="img img7"></div>
-      <div><img src="images/indieprezi2.png" width=100% class="img img8"></div>
-      <div><img src="images/Senioritis_Insta_Post.png" width=100% class="img img9"></div>
-      <div><img src="images/lobby2.png" width=100% class="img img10"></div>
+    <section class="graphicdesigngrid">
+      <div class="grid-item"><img src="images/satprep.jpg" width=100%></div>
+      <div class="grid-item"><img src="images/blogsquare.jpg" width=100%></div>
+      <div class="grid-item"><img src="images/contestsquare.jpg" width=100%></div>
+      <div class="grid-item"><img src="images/rsvpsquare.jpg" width=100%></div>
+      <div class="grid-item"><img src="images/indie2square.jpg" width=100%></div>
+      <div class="grid-item"><img src="images/visit.jpg" width=100%></div>
+      <div class="grid-item"><img src="images/senioritissquare.jpg" width=100%></div>
+      <div class="grid-item"><img src="images/thankssquare.jpg" width=100%></div>
+        <div class="grid-item"><img src="images/inspireusquare.jpg" width=100%></div>
 
 
     </section>
 
   </main>
-  <footer></footer>
+  <footer>
+    <h3 id="footerlogo">Kim's<span style="color:gray">Multimedia</span></h3>
+    <ul id="contact">
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="http://www.linkedin.com/in/dejesuskimberly">Linkedin</a></li>
+      <li>Email: kdejesus243@gmail.com</li>
+      <li>Phone: (786) 380 8323</li>
+    </ul>
+  </footer>
+
+  <script src="jquery/jquery.js"></script>
+
+
+  <script src="jquery/masonry.pkgd.min.js"></script>
+
+  <script>
+
+    $('.graphicdesigngrid').masonry({
+  // options
+    itemSelector: '.grid-item',
+    columnWidth: 400,
+    gutter: 20,
+    });
+
+  </script>
+
 
 </body>
 
