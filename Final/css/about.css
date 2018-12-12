@@ -102,6 +102,14 @@ ul li a{
   color: black;
 }
 
+ul li a:hover{
+  color: gray;
+}
+
+nav ul li a:hover{
+  color:gray;
+}
+
 #footerlogo{
   margin-left: 2em;
   padding-top: 2em;
